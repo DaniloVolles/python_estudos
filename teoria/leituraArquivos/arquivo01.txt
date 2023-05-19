@@ -1,1 +1,0 @@
-Esse eh o arquivo do meu primeiro estudo de leitura de arquivos em python!
