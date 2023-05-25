@@ -1,4 +1,4 @@
-from teoria.metodosDifDiretorios.function.metodo1 import soma
+from teoria.ImportsExamples.metodosDifDiretorios.function.metodo1 import soma
 # Para isso funcionar o programa deve estar organizado em pacotes.
 # funcionou.
 
