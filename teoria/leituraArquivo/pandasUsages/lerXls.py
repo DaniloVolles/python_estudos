@@ -19,9 +19,3 @@ df.to_csv(
     index=False, # Elimina a necessidade de escrever um 'id' para a 'tabela csv'
     na_rep='' # Nesse caso não será necessário, mas esse argumento fala pra escrever '' quando o campo for null
 )
-
-# with open('exportar_csv.csv', 'x') as arquivo_csv:
-#     escritor = csv.writer(arquivo_csv)
-#     escritor.writeheader()
-#     for linha in df:
-#         escritor.writerow(linha)
