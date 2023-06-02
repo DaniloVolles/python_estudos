@@ -21,6 +21,20 @@
           "bairro": "BAIRRO",
           "cidade": "CIDADE",
           "uf_cidade": "UF"
+        },
+        {
+          "pais": "PAÍS EDITORA",
+          "cep": "0000000",
+          "bairro": "BAIRRO",
+          "cidade": "CIDADE",
+          "uf_cidade": "UF"
+        },
+        {
+          "pais": "PAÍS EDITORA",
+          "cep": "0000000",
+          "bairro": "BAIRRO",
+          "cidade": "CIDADE",
+          "uf_cidade": "UF"
         }
       ],
       "categorias": [
