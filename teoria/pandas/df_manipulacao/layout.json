@@ -1,0 +1,203 @@
+{
+  "livros": [
+    {
+      "dados_cadastrais": {
+      "id": 100000,
+        "nome_livro": "NOME DO LIVRO",
+        "subtitulo": null,
+        "autor": "NOME DO AUTOR",
+        "coautor": "NOME DO COAUTOR",
+        "data_publicacao": "DD-MM-AAAA",
+        "cidade_publicacao": "CIDADE DE PUBLICACAO",
+        "uf_publicacao": "ESTADO",
+        "pais_publicacao": "PAÍS",
+        "codigo_livro": "000000000000000",
+        "data_atualizacao": "DD-MM-AAAA 00:00:00"
+      },
+      "editoras": [
+        {
+          "pais": "PAÍS EDITORA",
+          "cep": "0000000",
+          "bairro": "BAIRRO",
+          "cidade": "CIDADE",
+          "uf_cidade": "UF"
+        },
+        {
+          "pais": "PAÍS EDITORA",
+          "cep": "0000000",
+          "bairro": "BAIRRO",
+          "cidade": "CIDADE",
+          "uf_cidade": "UF"
+        },
+        {
+          "pais": "PAÍS EDITORA",
+          "cep": "0000000",
+          "bairro": "BAIRRO",
+          "cidade": "CIDADE",
+          "uf_cidade": "UF"
+        }
+      ],
+      "categorias": [
+        {
+          "categoria_id": 0,
+          "numero_registro": "0000000",
+          "temas": [
+            {
+              "tema_1": "TEMA 1",
+              "tema_2": "TEMA 2",
+              "tema_3": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dados_cadastrais": {
+      "id": 200000,
+        "nome_livro": "NOME DO LIVRO",
+        "subtitulo": null,
+        "autor": "NOME DO AUTOR",
+        "coautor": "NOME DO COAUTOR",
+        "data_publicacao": "DD-MM-AAAA",
+        "cidade_publicacao": "CIDADE DE PUBLICACAO",
+        "uf_publicacao": "ESTADO",
+        "pais_publicacao": "PAÍS",
+        "codigo_livro": "000000000000000",
+        "data_atualizacao": "DD-MM-AAAA 00:00:00"
+      },
+      "editoras": [
+        {
+          "pais": "PAÍS EDITORA",
+          "cep": "0000000",
+          "bairro": "BAIRRO",
+          "cidade": "CIDADE",
+          "uf_cidade": "UF"
+        }
+      ],
+      "categorias": [
+        {
+          "categoria_id": 0,
+          "numero_registro": "0000000",
+          "temas": [
+            {
+              "tema_1": "TEMA 1",
+              "tema_2": "TEMA 2",
+              "tema_3": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dados_cadastrais": {
+      "id": 300000,
+        "nome_livro": "NOME DO LIVRO",
+        "subtitulo": null,
+        "autor": "NOME DO AUTOR",
+        "coautor": "NOME DO COAUTOR",
+        "data_publicacao": "DD-MM-AAAA",
+        "cidade_publicacao": "CIDADE DE PUBLICACAO",
+        "uf_publicacao": "ESTADO",
+        "pais_publicacao": "PAÍS",
+        "codigo_livro": "000000000000000",
+        "data_atualizacao": "DD-MM-AAAA 00:00:00"
+      },
+      "editoras": [
+        {
+          "pais": "PAÍS EDITORA",
+          "cep": "0000000",
+          "bairro": "BAIRRO",
+          "cidade": "CIDADE",
+          "uf_cidade": "UF"
+        }
+      ],
+      "categorias": [
+        {
+          "categoria_id": 0,
+          "numero_registro": "0000000",
+          "temas": [
+            {
+              "tema_1": "TEMA 1",
+              "tema_2": "TEMA 2",
+              "tema_3": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dados_cadastrais": {
+      "id": 400000,
+        "nome_livro": "NOME DO LIVRO",
+        "subtitulo": null,
+        "autor": "NOME DO AUTOR",
+        "coautor": "NOME DO COAUTOR",
+        "data_publicacao": "DD-MM-AAAA",
+        "cidade_publicacao": "CIDADE DE PUBLICACAO",
+        "uf_publicacao": "ESTADO",
+        "pais_publicacao": "PAÍS",
+        "codigo_livro": "000000000000000",
+        "data_atualizacao": "DD-MM-AAAA 00:00:00"
+      },
+      "editoras": [
+        {
+          "pais": "PAÍS EDITORA",
+          "cep": "0000000",
+          "bairro": "BAIRRO",
+          "cidade": "CIDADE",
+          "uf_cidade": "UF"
+        }
+      ],
+      "categorias": [
+        {
+          "categoria_id": 0,
+          "numero_registro": "0000000",
+          "temas": [
+            {
+              "tema_1": "TEMA 1",
+              "tema_2": "TEMA 2",
+              "tema_3": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dados_cadastrais": {
+      "id": 500000,
+        "nome_livro": "NOME DO LIVRO",
+        "subtitulo": null,
+        "autor": "NOME DO AUTOR",
+        "coautor": "NOME DO COAUTOR",
+        "data_publicacao": "DD-MM-AAAA",
+        "cidade_publicacao": "CIDADE DE PUBLICACAO",
+        "uf_publicacao": "ESTADO",
+        "pais_publicacao": "PAÍS",
+        "codigo_livro": "000000000000000",
+        "data_atualizacao": "DD-MM-AAAA 00:00:00"
+      },
+      "editoras": [
+        {
+          "pais": "PAÍS EDITORA",
+          "cep": "0000000",
+          "bairro": "BAIRRO",
+          "cidade": "CIDADE",
+          "uf_cidade": "UF"
+        }
+      ],
+      "categorias": [
+        {
+          "categoria_id": 0,
+          "numero_registro": "0000000",
+          "temas": [
+            {
+              "tema_1": "TEMA 1",
+              "tema_2": "TEMA 2",
+              "tema_3": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
