@@ -1,14 +1,35 @@
-import pandas as pd
-import unicodedata
+from unidecode import unidecode
 
-def remover_acentos(string):
-    # Remove acentos das palavras.
 
-    ajuste = string.upper()
-    ajuste = unicodedata.normalize("NFD", string).encode("ASCII", "ignore").decode("utf-8")
+def tratar_caracteres_especiais(palavra: str):
+    ## Essa função possui 3 partes:
+    # 1 - remover caracteres especiais com unidecode
+    # 2 - remover ', ´, `,
+    # 3 - remover - e _
 
-    return ajuste
+    # 1 - Isso aqui remove os acentos da palavra -> ç, á, à, ã, ä
+    palavra_tratada = unidecode(palavra)
 
-string = 'Á, À, Ã, Â, Ä, Ç, Ü'
-string = remover_acentos(string)
-print(string)
+    # 2 - Aqui vamos remover os caracteres especiais -> ', `, ´
+    caracteres_1 = "'´`"
+    for i in range(0, len(caracteres_1)):
+        palavra_tratada = palavra_tratada.replace(caracteres_1[i], '')  # trocar caractere por "backspace"
+    # Caracteres ', `, ´ retirados
+
+    # 3 - Aqui vamos remover os caracteres especiais -> -, _,
+    caracteres_2 = "-_"
+    for i in range(0, len(caracteres_2)):
+        palavra_tratada = palavra_tratada.replace(caracteres_2[i], ' ')  # Trocar caractere por "espaço"
+
+    return palavra_tratada
+
+
+def upperCaseTrim(palavra: str):
+    return palavra.upper().strip()
+
+
+nome = "Pingo-d'Água"
+
+print('Nome original:', nome)
+print('Nome UpperCase e "stripped":', upperCaseTrim(nome))
+print('Nome sem caracteres especiais:', tratar_caracteres_especiais(nome))

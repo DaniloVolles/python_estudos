@@ -59,14 +59,3 @@ print('\nAmerican Soundex -----------------------------')
 print('----- String:', american_soundex_string)
 print('----- Comparação:', american_soundex_comparacao)
 print('----- São iguais?', american_soundex_string == american_soundex_comparacao)
-
-'''
-1o -> "identação"
- - é igual?
- - só caixa
- - tirar acentuações
- - fonético
- - Levenstein - só igualando caixa
- 
- ---- Testar as distâncias
-'''
