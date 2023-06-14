@@ -16,3 +16,7 @@ print(df['Nome_Município'].unique()) # retorna qual o "range" de possibilidades
 # Repare que entre colchetes você seleciona a única coluna que você quer
 print(df['Nome_Município'].value_counts()) # retorna as quantidades de cada item do range
 
+# passar coluna como Series/Lista
+print(df['Nome_Município']) # Aqui seleciona toda uma coluna
+print(type(df['Nome_Município'])) # Retorna Series (tipo do pandas)
+print(df['Nome_Município'].tolist()) # Retorna uma lista com os itens da Series
