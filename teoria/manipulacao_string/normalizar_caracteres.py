@@ -24,12 +24,12 @@ def tratar_caracteres_especiais(palavra: str):
     return palavra_tratada
 
 
-def upperCaseTrim(palavra: str):
+def upper_case_trim(palavra: str):
     return palavra.upper().strip()
 
 
 nome = "Pingo-d'Água"
 
 print('Nome original:', nome)
-print('Nome UpperCase e "stripped":', upperCaseTrim(nome))
+print('Nome UpperCase e "stripped":', upper_case_trim(nome))
 print('Nome sem caracteres especiais:', tratar_caracteres_especiais(nome))
