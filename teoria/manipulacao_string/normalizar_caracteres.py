@@ -3,7 +3,7 @@ from unidecode import unidecode
 
 def tratar_caracteres_especiais(palavra: str):
     ## Essa função possui 3 partes:
-    # 1 - remover caracteres especiais com unidecode
+    # 1 - remover caracteres especiais com unidecode_usage
     # 2 - remover ', ´, `,
     # 3 - remover - e _
 
