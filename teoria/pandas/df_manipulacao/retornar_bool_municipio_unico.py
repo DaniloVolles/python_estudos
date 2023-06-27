@@ -11,7 +11,7 @@ def existe_unico_municipio(df, municipio: str):
     else:
         return False
 
-xl_ibge = pd.ExcelFile('RELATORIO_DTB_BRASIL_DISTRITO_REDUZIDO.xls')
+xl_ibge = pd.ExcelFile('dados/RELATORIO_DTB_BRASIL_DISTRITO_REDUZIDO.xls')
 df_ibge = xl_ibge.parse(sheet_name=0, header=6, usecols=['Nome_UF', 'Nome_Município', 'Código Município Completo'])
 
 # Perceba que esse relatório é um reduzido dos distritos, e não a lista completa dos municípios

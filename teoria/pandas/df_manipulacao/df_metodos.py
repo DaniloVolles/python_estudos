@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-excel_file = 'RELATORIO_DTB_BRASIL_DISTRITO_REDUZIDO.xls'
+excel_file = 'dados/RELATORIO_DTB_BRASIL_DISTRITO_REDUZIDO.xls'
 sheet = 0
 header = 6
 
